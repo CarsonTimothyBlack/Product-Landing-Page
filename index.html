@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Page</title>
+    <link rel="stylesheet" type="text/css" href="product.css">
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <header id='header'>
+      <div class="company-box">
+          <div class="comp-face">
+            <h1 class="comp-name">The Science Doctors</h1>
+            <img id='header-img' width="50px" height="50px" src='http://www.clker.com/cliparts/2/7/c/b/1345122917741701421science&technology-md.png' alt='logo' />
+        </div>
+      </div>
+      <nav id='nav-bar'>
+          <a class="nav-link" href="#top">Home</a>
+          <a class="nav-link" href="#feature">Features</a>
+          <a class="nav-link" href="#products">Products</a>
+      </nav>
+    </header>
+    
+    <div id="top"><p>Enter email to recieve weekly coupons!</p></div>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" type="email" name="email" placeholder="Please enter email...">
+      <br>
+      <input id="submit" type="submit" value="Start Saving">
+    </form>
+    
+    <section id="feature" class="feature-box">
+      <div class="features"><i class="fas fa-atom"></i><p>Our science doctors are well versed in the mysteries of the universe!</p>
+      </div>
+      <div class="features"><i class="fas fa-flask"></i><p>We have advanced labs for them to produce amazing science products.</p>
+      </div>
+      <div class="features"><i class="fas fa-shopping-cart"></i><p>We have several, grand items available for purchase.</p>
+      </div>
+    </section>
+    
+      <video id='video' controls>
+        <source src="https://ak7.picdn.net/shutterstock/videos/26862067/preview/stock-footage--s-dramatic-re-enactments-of-historic-bacteriologists-van-leeuwenhoek-pasteur-and-koch.webm" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    
+    <section id="products">
+      <div class="item">
+        <i class="fas fa-battery-three-quarters"></i>
+        <h1 class="inline">Super Battery</h1>
+        <h1 class="inline">$300</h1>
+        <p>Our super battery is so incredibly powerful and able to power any device 100X more than a regular battery!</p>
+        <button type="button" onclick="alert('This item has been added to your cart!')">Add to cart</button>
+      </div>
+      <div class="item">
+        <i class="fas fa-space-shuttle"></i>
+        <h1 class="inline">Space Shuttle</h1>
+        <h1 class="inline">$80m</h1>
+        <p>Our Space Shuttle can get you to the moon and back all on a single charge with our Super Battery!</p>
+        <button type="button" onclick="alert('This item has been added to your cart!')">Add to cart</button>
+      </div>
+      <div class="item">
+        <i class="fas fa-desktop"></i>
+        <h1 class="inline">Mega Computer</h1>
+        <h1 class="inline">$5,000</h1>
+        <p>Our Mega Computer can program the Super Battery to do a number of things! Also, it computes quite well.</p>
+        <button type="button" onclick="alert('This item has been added to your cart!')">Add to cart</button>
+      </div>
+      <div class="item">
+        <i class="fas fa-robot"></i>
+        <h1 class="inline">Robot Head</h1>
+        <h1 class="inline">$20</h1>
+        <p>Our Robot Head is so much fun to talk to! Who needs a body, when you're a smart robot head?</p>
+        <button type="button" onclick="alert('This item has been added to your cart!')">Add to cart</button>
+      </div>
+    </section>
+    
+    <footer>
+      <p>Copyright: 2018</p>
+    </footer>
+  </body>
+  
+</html>
