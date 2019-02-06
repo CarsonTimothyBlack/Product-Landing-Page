@@ -1,0 +1,195 @@
+body {
+  background: white;
+  font-family: 'Staatliches', cursive;
+}
+
+:target {
+  padding-top: 220px;
+  margin-top: -220px;
+}
+
+header {
+  background: white;
+  border-bottom: solid 3px #0057A8;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+nav {
+  padding: 10px;
+}
+
+a {
+  color: #0057A8;
+  text-decoration: none;
+  display: block;
+  padding: 8px 30px 18px 30px;
+  text-align: center;
+}
+
+a:hover {
+  background: #00897b;
+  color: white;
+}
+
+.company-box {
+  display: flex;
+  justify-content: center;
+}
+
+.comp-face {
+  display: flex;
+}
+
+.comp-name {
+  background: white;
+  color: #0057A8;
+  padding: 0 5px;
+  margin: 0;
+  font-size: 40px;
+}
+
+#top {
+  color: #0057A8;
+  font-size: 30px;
+  text-align: center;
+}
+
+form {
+  background: #00897b;
+  border: solid 5px #0057A8;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+  margin: 0 auto 40px;
+  padding: 20px;
+}
+
+#email {
+  border: solid 5px #0057A8;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+#submit {
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 5px;
+  border: solid 5px #0057A8;
+  border-radius: 8px;
+}
+
+#submit:hover {
+  background: #0057A8;
+  color: white;
+}
+
+.features {
+  background: #0057A8;
+  color: white;
+  border-radius: 15px;
+  margin: 10px 10px;
+  padding: 10px 50px;
+  text-align: center;
+}
+
+.features > i {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.features > p {
+  font-size: 18px;
+}
+
+video {
+  width: 80%;
+  height: 64%;
+  background: #00897b;
+  display: block;
+  padding: 20px;
+  margin: 40px auto;
+  border-radius: 15px;
+}
+
+.item {
+  color: #0057A8;
+  border: dashed 10px #0057A8;
+  border-radius: 15px;
+  margin: 15px 5px;
+  padding: 10px;
+}
+
+.item > i {
+  font-size: 1.5em;
+}
+
+.inline {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.item > p {
+  margin: 10px 40px;
+  font-size: 20px;
+}
+
+button {
+  color: #0057A8;
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+  width: 150px;
+  padding: 5px;
+  border: solid 5px #0057A8;
+}
+
+button:hover {
+  background: #0057A8;
+  color: white;
+}
+
+footer {
+  background: white;
+  color: #0057A8;
+  margin: 50px 10px;
+  border-top: solid 3px #0057A8;
+}
+
+
+
+/* media query section */
+@media screen and (min-width: 710px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  a {
+    display: inline;
+  }
+  
+  .feature-box {
+    display: flex;
+    justify-content: center;
+  }   
+  
+  .features {
+    margin: 0 auto;
+    width: 100px;
+    height: 250px;
+  }
+  
+  .features > p {
+    font-size: 18px;
+  }
+  
+  video {
+    width: 555px;
+    height: 320px;
+  }
+}
